@@ -34,16 +34,16 @@ apt-get -y install python
 #apt-get -y install python2.5
 apt-get -y install ipython
 apt-get -y install python-dev
-#apt-get -y install postgresql
+apt-get -y install postgresql
 apt-get -y install apache2
 apt-get -y install libapache2-mod-wsgi
-#apt-get -y install python2.5-psycopg2
-#apt-get -y install postfix
+apt-get -y install python2.5-psycopg2
+apt-get -y install postfix
 apt-get -y install wget
 apt-get -y install python-matplotlib
 apt-get -y install python-reportlab
 apt-get -y install mercurial
-#/etc/init.d/postgresql restart
+/etc/init.d/postgresql restart
 
 # optional, uncomment for emacs
 # apt-get -y install emacs
