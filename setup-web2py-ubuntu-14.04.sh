@@ -143,4 +143,4 @@ echo "================"
 cd /home/www-data/web2py
 sudo -u www-data python -c "from gluon.widget import console; console();"
 sudo -u www-data python -c "from gluon.main import save_password; save_password(raw_input('admin password: '),443)"
-echo "done!
+echo "done!"
